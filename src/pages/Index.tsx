@@ -10,7 +10,7 @@ import { cn } from '@/lib/utils';
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gray-900">
       <Navbar />
       <WhatsAppButton />
 
@@ -18,18 +18,18 @@ const Index = () => {
       <section 
         id="inicio"
         className="h-screen relative flex items-center justify-center bg-cover bg-center" 
-        style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80')" }}
+        style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('/lovable-uploads/310283f8-ae2a-4562-9610-c90bd0cec83d.png')" }}
       >
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold mb-6">
             Defendendo seus direitos com ética e excelência
           </h1>
-          <p className="text-lawyer-light text-lg md:text-xl mb-8 max-w-3xl mx-auto">
+          <p className="text-gray-300 text-lg md:text-xl mb-8 max-w-3xl mx-auto">
             Advocacia especializada em Direito Civil e Empresarial para proteger seus interesses e garantir seus direitos.
           </p>
           <Button
             asChild
-            className="bg-lawyer-medium hover:bg-lawyer-dark text-white font-medium px-8 py-3 rounded-md transition-all duration-300 hover:shadow-lg"
+            className="bg-gray-700 hover:bg-gray-600 text-white font-medium px-8 py-3 rounded-md transition-all duration-300 hover:shadow-lg"
           >
             <a href="#contato">Fale Conosco</a>
           </Button>
@@ -37,37 +37,37 @@ const Index = () => {
       </section>
 
       {/* Sobre Mim Section */}
-      <section id="sobre" className="section-padding bg-lawyer-light">
+      <section id="sobre" className="section-padding bg-gray-800">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-lawyer-dark text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
             Sobre Mim
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="aspect-square rounded-full overflow-hidden max-w-sm mx-auto">
               <img 
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" 
+                src="/lovable-uploads/48f5c843-d84d-45df-921c-3e35683319f5.png" 
                 alt="Dra. Julianne Araújo" 
                 className="w-full h-full object-cover object-center"
               />
             </div>
             <div>
-              <p className="text-lawyer-gray text-lg mb-6 leading-relaxed">
+              <p className="text-gray-300 text-lg mb-6 leading-relaxed">
                 Atuando com seriedade, agilidade e comprometimento, Julianne Araujo tem se destacado na advocacia cível e empresarial, oferecendo soluções jurídicas eficientes e humanizadas.
               </p>
-              <p className="text-lawyer-gray text-lg mb-6 leading-relaxed">
+              <p className="text-gray-300 text-lg mb-6 leading-relaxed">
                 Com sólida formação acadêmica e experiência prática consolidada, sua atuação é pautada pela ética, responsabilidade e busca contínua por resultados favoráveis aos seus clientes.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
                   asChild
-                  className="bg-lawyer-dark hover:bg-lawyer-medium text-white font-medium px-6 py-3 rounded-md transition-colors"
+                  className="bg-gray-700 hover:bg-gray-600 text-white font-medium px-6 py-3 rounded-md transition-colors"
                 >
                   <a href="#areas">Áreas de Atuação</a>
                 </Button>
                 <Button
                   asChild
                   variant="outline"
-                  className="border-lawyer-medium text-lawyer-medium hover:bg-lawyer-medium hover:text-white font-medium px-6 py-3 rounded-md transition-colors"
+                  className="border-gray-500 text-gray-300 hover:bg-gray-700 hover:text-white font-medium px-6 py-3 rounded-md transition-colors"
                 >
                   <a href="https://www.linkedin.com/in/julianne-araujo-aa47861b9/" target="_blank" rel="noopener noreferrer">
                     LinkedIn
@@ -80,9 +80,9 @@ const Index = () => {
       </section>
 
       {/* Áreas de Atuação */}
-      <section id="areas" className="section-padding bg-white">
+      <section id="areas" className="section-padding bg-gray-900">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-lawyer-dark text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
             Áreas de Atuação
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -121,43 +121,43 @@ const Index = () => {
       </section>
 
       {/* Contato Section */}
-      <section id="contato" className="section-padding bg-lawyer-light">
+      <section id="contato" className="section-padding bg-gray-800">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-lawyer-dark text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
             Entre em Contato
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-xl font-semibold text-lawyer-dark mb-6">
+              <h3 className="text-xl font-semibold text-white mb-6">
                 Informações de Contato
               </h3>
               <div className="space-y-4 mb-8">
                 <div className="flex items-start">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-lawyer-medium mr-3 mt-0.5">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-gray-400 mr-3 mt-0.5">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                   </svg>
                   <div>
-                    <h4 className="font-semibold text-lawyer-dark">Endereço</h4>
-                    <p className="text-lawyer-gray">DF Plaza, Bloco D – Aguas Claras – SP</p>
+                    <h4 className="font-semibold text-white">Endereço</h4>
+                    <p className="text-gray-300">DF Plaza, Bloco D – Aguas Claras – SP</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-lawyer-medium mr-3 mt-0.5">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-gray-400 mr-3 mt-0.5">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
                   </svg>
                   <div>
-                    <h4 className="font-semibold text-lawyer-dark">Telefone</h4>
-                    <p className="text-lawyer-gray">(61) 99424-0550</p>
+                    <h4 className="font-semibold text-white">Telefone</h4>
+                    <p className="text-gray-300">(61) 99424-0550</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-lawyer-medium mr-3 mt-0.5">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-gray-400 mr-3 mt-0.5">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                   </svg>
                   <div>
-                    <h4 className="font-semibold text-lawyer-dark">E-mail</h4>
-                    <p className="text-lawyer-gray">contato@juliannearaujo.com.br</p>
+                    <h4 className="font-semibold text-white">E-mail</h4>
+                    <p className="text-gray-300">contato@juliannearaujo.com.br</p>
                   </div>
                 </div>
               </div>
@@ -178,8 +178,8 @@ const Index = () => {
                 </a>
               </Button>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold text-lawyer-dark mb-6">
+            <div className="bg-gray-700 p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold text-white mb-6">
                 Envie uma Mensagem
               </h3>
               <ContactForm />

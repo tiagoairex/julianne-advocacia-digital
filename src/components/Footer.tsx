@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-lawyer-dark text-lawyer-light py-8">
+    <footer className="bg-gray-900 text-gray-200 py-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
@@ -17,7 +17,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/julianne-araujo-aa47861b9/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-lawyer-light hover:text-white transition-colors duration-300"
+                className="text-gray-300 hover:text-white transition-colors duration-300"
               >
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
@@ -36,9 +36,9 @@ const Footer = () => {
             <p className="mb-4">Das 9h às 18h</p>
           </div>
         </div>
-        <div className="border-t border-lawyer-light/20 mt-8 pt-8 text-center text-sm">
+        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
           <p>&copy; {currentYear} Dra. Julianne Araújo | Todos os direitos reservados</p>
-          <p className="mt-2">OAB/SP (Número da OAB)</p>
+          <p className="mt-2">OAB DF 77.329</p>
         </div>
       </div>
     </footer>
