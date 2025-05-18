@@ -5,19 +5,20 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-gray-900 text-gray-200 py-8">
+    <footer className="bg-black text-silver py-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4 text-white">Dra. Julianne Araújo</h3>
+            <h3 className="text-xl font-bold mb-4 text-gold font-nexa">Dra. Julianne Araújo</h3>
             <p className="mb-2">DF Plaza, Bloco D – Aguas Claras – SP</p>
-            <p className="mb-4">(61) 99424-0550</p>
+            <p className="mb-2">(61) 99424-0550</p>
+            <p className="mb-4">adv.juliannearaujo@gmail.com</p>
             <div className="flex space-x-4">
               <a 
                 href="https://www.linkedin.com/in/julianne-araujo-aa47861b9/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white transition-colors duration-300"
+                className="text-silver hover:text-gold transition-colors duration-300"
               >
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
@@ -31,12 +32,12 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <h3 className="text-xl font-bold mb-4 text-white">Horário de Atendimento</h3>
+            <h3 className="text-xl font-bold mb-4 text-gold font-nexa">Horário de Atendimento</h3>
             <p className="mb-2">Segunda a sexta-feira</p>
             <p className="mb-4">Das 9h às 18h</p>
           </div>
         </div>
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
+        <div className="border-t border-navy mt-8 pt-8 text-center text-sm">
           <p>&copy; {currentYear} Dra. Julianne Araújo | Todos os direitos reservados</p>
           <p className="mt-2">OAB DF 77.329</p>
         </div>

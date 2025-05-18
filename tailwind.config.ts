@@ -63,18 +63,17 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Cores personalizadas para o site da advogada
-				lawyer: {
-					dark: '#1A365D', // Azul escuro
-					medium: '#2C5282', // Azul médio
-					light: '#EDF2F7', // Cinza claro
-					white: '#FFFFFF', // Branco
-					gray: '#718096', // Cinza médio
-				},
+				// Cores personalizadas da nova paleta
+				black: '#000000',
+				navy: '#222052',
+				silver: '#B7B7B7', 
+				gold: '#D2B68A',
+				cream: '#EEE5D3',
 			},
 			fontFamily: {
 				sans: ['Playfair Display', 'serif'],
 				serif: ['Merriweather', 'serif'],
+				nexa: ['nexa', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
