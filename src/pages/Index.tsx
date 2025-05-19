@@ -74,12 +74,12 @@ const Index = () => {
             <h3 className="text-xl font-bold mb-2">Direito Empresarial</h3>
             
     <ul className="text-gray-300 text-left list-disc pl-4">
-      <li>Contratos Civis</li>
-      <li>Direito de Família e Sucessões</li>
-      <li>Direito Condominial</li>
-      <li>Defesa do Consumidor</li>
-      <li>Defesa do Executado</li>
-      <li>Responsabilidade Civil</li>
+      <li>Assessoria Jurídica para Empresas</li>
+      <li>Contratos Comerciais</li>
+      <li>Direito Societário</li>
+      <li>Cobrança de Credito</li>
+      <li>Mediação e Negociação Empresarial</li>
+      <li>Recuperação de Credito</li>
     </ul>
     
           </div>
