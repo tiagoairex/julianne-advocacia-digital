@@ -12,7 +12,6 @@ Este projeto é um site institucional para a advogada Julianne Araújo, desenvol
 - Navegação com scroll suave e animações
 - Apresentação institucional com imagem de capa e seção "Sobre Mim"
 - Destaque das áreas de atuação jurídica
-- Formulário de contato funcional (UI)
 - Integração com WhatsApp
 
 ## Como executar
