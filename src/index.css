@@ -1,7 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Merriweather:wght@300;400;700&display=swap');
 @import url('https://use.typekit.net/zcp5lbq.css'); /* Adding Nexa Regular if available via Adobe fonts */
-
+:root {
+  --background: 30 30 30;
+  --card: 44 44 44;
+  --foreground: 243 244 246;
+  --accent: 196 155 66;
+  --accent-foreground: 255 255 255;
+  --primary: 196 155 66;
+  --primary-foreground: 255 255 255;
+  --muted: 209 213 219;
+  --muted-foreground: 243 244 246;
+  --border: 64 64 64;
+  --input: 80 80 80;
+  --ring: 196 155 66;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

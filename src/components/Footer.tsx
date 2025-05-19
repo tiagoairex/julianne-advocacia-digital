@@ -5,12 +5,12 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-black text-silver py-8">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <footer className="bg-neutral-900 text-silver py-8">
+      <div className="container mx-auto px-0">
+        <div className="grid grid-cols-3 gap-8 py-12 px-8 text-sm">
           <div>
             <h3 className="text-xl font-bold mb-4 text-gold font-nexa">Dra. Julianne Araújo</h3>
-            <p className="mb-2">DF Plaza, Bloco D – Aguas Claras – SP</p>
+            <p className="mb-2">DF Plaza, Águas Claras - DF</p>
             <p className="mb-2">(61) 99424-0550</p>
             <p className="mb-4">adv.juliannearaujo@gmail.com</p>
             <div className="flex space-x-4">
@@ -30,8 +30,8 @@ const Footer = () => {
                 </svg>
               </a>
             </div>
-          </div>
-          <div>
+          </div> 
+          <div className="col-start-3 text-right pr-8">
             <h3 className="text-xl font-bold mb-4 text-gold font-nexa">Horário de Atendimento</h3>
             <p className="mb-2">Segunda a sexta-feira</p>
             <p className="mb-4">Das 9h às 18h</p>
